@@ -1,0 +1,67 @@
+// use tra indices 2000 or higher
+// Item description strings for "Equipment with critical hit protection"
+// Specify empty strings to skip item description update
+// Search strings as regular expressions
+@2000 = ~STATISTICS:~
+@2001 = ~Equipped abilities:~
+// replacement strings
+@2010 = ~属性：~
+@2011 = ~装备能力：~
+// new string
+@2020 = ~— 免疫暴击~
+// Lines for automatic TotLM transition
+@2100 = ~数日之后……~
+// Lines for "Great Oak's Beacon" ability
+@2200 = ~大橡树信标~
+@2201 = ~大橡树信标
+库达哈的大橡树赋予你力量，可在冰风谷全境任意地点返回库达哈，效果持续8小时。时效届满后，队伍将被自动送回旅程的起点。~
+@2202 = ~返乡~
+@2203 = ~返乡
+使用此能力可立即返回旅程起点，无需等待信标的附魔效果将你送回。~
+@2210 = ~大橡树赐予你自然的祝福。~
+@2211 = ~此地的邪秽压制了大橡树的威能。~
+@2212 = ~此法术似乎无法在此地生效。~
+@2213 = ~信标~
+// Lines for launcher weapon tweaks
+// Full damage definition string
+// %sign% is a placeholder for the positive or negative sign of the damage value
+// %damage% is a placeholder for the actual damage value
+@2300 = ~伤害：%sign%%damage%（远程）~
+// Short damage definition string (without additional specifiers)
+@2301 = ~伤害：%sign%%damage%~
+// sign for positive damage modifier
+@2305 = ~+~
+// sign for negative damage modifier
+@2306 = ~-~
+// one or more regular expressions to match the damage modifier
+@2310 = ~Damage: [-+]?[0-9]+~
+// one or more regular expressions to match the line right before the damage modifier
+@2320 = ~THAC0: [-+]?[0-9]+~
+// one or more regular expressions to match the line right after the damage modifier
+@2330 = ~Speed Factor: [0-9]+~
+// Map note
+@2400 = ~安全宝箱~
+
+// Lines for expanded contingency conditions
+@2500 = ~受到攻击~
+@2501 = ~当有生物攻击施法者时。~
+@2502 = ~进入4英尺范围~
+@2503 = ~当有生物进入施法者周围4英尺范围时。~
+@2504 = ~进入10英尺范围~
+@2505 = ~当有生物进入施法者周围10英尺范围时。~
+@2506 = ~***崩溃风险***~
+@2507 = ~请勿使用！此条件可能导致游戏崩溃。~
+@2508 = ~受到伤害~
+@2509 = ~当施法者受到任何伤害时。~
+@2510 = ~击杀目标时~
+@2511 = ~当施法者击杀任一生物时。~
+@2512 = ~白天~
+@2513 = ~在白天时段触发。~
+@2514 = ~（无法使用）~
+@2515 = ~此条件永远不会触发。~
+@2516 = ~死亡时~
+@2517 = ~当施法者死亡时。~
+@2518 = ~有单位死亡~
+@2519 = ~当施法者视野内有任一生物死亡时。~
+// @2550 = ~Nearest target~
+// @2551 = ~The spell targets the nearest creature.~

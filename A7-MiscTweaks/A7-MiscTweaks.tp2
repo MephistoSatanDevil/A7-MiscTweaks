@@ -40,6 +40,10 @@ LANGUAGE ~Francais~
          ~A7-MiscTweaks/tra/en_us/mod.tra~
          ~A7-MiscTweaks/tra/fr_fr/setup.tra~
          ~A7-MiscTweaks/tra/fr_fr/mod.tra~
+LANGUAGE ~Schinese~
+         ~schinese~
+         ~A7-MiscTweaks/tra/schinese/setup.tra~
+         ~A7-MiscTweaks/tra/schinese/mod.tra~
 
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
